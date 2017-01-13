@@ -1,7 +1,7 @@
 # Example of SAM bug
 
-For some reason it is not possible to add the CodeUri of a
-`AWS::Serverless::Function` type as a parameter. Steps to reproduce the issue:
+For some reason it is not possible to add the `CodeUri` property as a parameter
+in the `AWS::Serverless::Function`. Steps to reproduce the issue:
 
 ```bash
 
